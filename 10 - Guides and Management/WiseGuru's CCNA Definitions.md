@@ -7,9 +7,9 @@ Welcome to WiseGuru's *community-driven* site of **CCNA Definitions**! The goal 
 This is (and always will be) a **work in progress**, and as such, it will have *incomplete* or *incorrect* information. I started this database of definitions in 2023 part-way through my own CCNA studies, and so some entries were never updated beyond creation or were never created at all.
 
 ### Add these notes directly to your Obsidian Vault
-If you would like a copy of these notes **directly** in your [Obsidian.md](https://obsidian.md/) **vault**, now you can! Just go to [this GitHub repository](https://github.com/WiseGuru/ccna-definitions-vault), click on the "Code" dropdown menu, and download it as a *zip* file.
+If you would like a copy of these notes **directly** in your [Obsidian.md](https://obsidian.md/) **vault**, now you can! Just go to [this GitHub repository](https://github.com/WiseGuru/ccna-definitions-vault), click on the "Code" dropdown menu, and download it as a *zip* file. Extract the folders and copy/paste them into your vault, and you should be good to go!
 ![[WiseGuru's CCNA Definitions-1.png]]
-You can then add those folders directly your vault. If you have any problems, let me know either through this [Google Forms Survey](https://forms.gle/HmYY8zjdgzJQFiWr5), or by submitting an [issue on GitHub](https://github.com/WiseGuru/ccna-definitions-vault/issues/new).
+If you have any problems, let me know either through this [Google Forms Survey](https://forms.gle/HmYY8zjdgzJQFiWr5), or by submitting an [issue on GitHub](https://github.com/WiseGuru/ccna-definitions-vault/issues/new).
 
 You can also [[How to fork this repository|fork this repository]] and use [GitHub Desktop](https://desktop.github.com/) to synchronize changes. I hope to be posting instructions soon on how to do this.
 

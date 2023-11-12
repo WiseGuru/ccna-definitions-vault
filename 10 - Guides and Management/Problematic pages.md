@@ -46,3 +46,5 @@ These are pages that are shorter than they should be and/or don't exist.
 15. [[Unicast Address]]
 16. [[Routing Table]]
 	1. Need to add practice sample routing tables
+17. [[Firewall]]
+18. [[IDS-IPS]]
