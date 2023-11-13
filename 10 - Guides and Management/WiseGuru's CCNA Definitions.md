@@ -6,6 +6,8 @@ Welcome to WiseGuru's *community-driven* site of **CCNA Definitions**! The goal 
 
 This is (and always will be) a **work in progress**, and as such, it will have *incomplete* or *incorrect* information. I started this database of definitions in 2023 part-way through my own CCNA studies, and so some entries were never updated beyond creation or were never created at all.
 
+If you're not sure where to start, I'm trying to get everything sorted by their [[CCNA Objectives]]. I'm going through every page to connect all the exam topics, but let me know if I've missed one (and please include its topic!)
+
 ### Add these notes directly to your Obsidian Vault
 If you would like a copy of these notes **directly** in your [Obsidian.md](https://obsidian.md/) **vault**, now you can! Just go to [this GitHub repository](https://github.com/WiseGuru/ccna-definitions-vault), click on the "Code" dropdown menu, and download it as a *zip* file. Extract the folders and copy/paste them into your vault, and you should be good to go!
 ![[WiseGuru's CCNA Definitions-1.png]]
@@ -16,6 +18,8 @@ You can also [[How to fork this repository|fork this repository]] and use [GitHu
 # Help me make this better
 
 You can help! If you find any information that is incorrect or incomplete (*within the scope of the CCNA*), PLEASE submit a ticket on **GitHub** with a *correction* and *source*. I will update the page and add a link to your profile (either GitHub or another service you specify) on the page as a contributor.
+
+[[Problematic pages]] has an ongoing list of pages that need review; if you have any suggestions on making them better, let me know!
 
 There are *two ways* you can submit information; either through this [Google Forms Survey](https://forms.gle/HmYY8zjdgzJQFiWr5), or by submitting an [issue on GitHub](https://github.com/WiseGuru/ccna-definitions-vault/issues/new).
 - Please note that any information submitted via the **Google Form** is *anonymous*, ONE-WAY communication; **I will not be able to follow up with you** to answer questions, seek clarification, or update you on the status of the request.
