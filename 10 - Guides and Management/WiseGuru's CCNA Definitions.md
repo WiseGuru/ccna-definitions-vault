@@ -6,7 +6,7 @@ Welcome to WiseGuru's *community-driven* site of **CCNA Definitions**! The goal 
 
 This is (and always will be) a **work in progress**, and as such, it will have *incomplete* or *incorrect* information. I started this database of definitions in 2023 part-way through my own CCNA studies, and so some entries were never updated beyond creation or were never created at all.
 
-If you're not sure where to start, I'm trying to get everything sorted by their [[CCNA Objectives]]. I'm going through every page to connect all the exam topics, but let me know if I've missed one (and please include its topic!)
+If you're not sure where to start, I'm trying to get everything sorted by their [[CCNA Objectives and Exam Topics]]. I'm going through every page to connect all the exam topics, but let me know if I've missed one (and please include its topic!)
 
 ### Add these notes directly to your Obsidian Vault
 If you would like a copy of these notes **directly** in your [Obsidian.md](https://obsidian.md/) **vault**, now you can! Just go to [this GitHub repository](https://github.com/WiseGuru/ccna-definitions-vault), click on the "Code" dropdown menu, and download it as a *zip* file. Extract the folders and copy/paste them into your vault, and you should be good to go!

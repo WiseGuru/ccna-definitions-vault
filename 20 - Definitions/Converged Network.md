@@ -1,5 +1,6 @@
 ---
-aliases: 
+aliases:
+  - converged networks
 tags:
   - defs_ccna
 dg-publish: true

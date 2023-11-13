@@ -30,7 +30,7 @@
 	- *Bronze* = Background
 
 ### Wireless Signal Disruption
-- ARRDSI
+- **ARRDSI**
 	- *Absorption*
 		- Signal is absorbed in material and converted to heat
 	- *Reflection*
@@ -47,7 +47,7 @@
 		- Signal interference, like other WLAN connections, microwaves, etc.
 
 ### Wireless Signal Anatomy
-- FAPH
+- **FAPH**
 	- *[[Amplitude]]*
 		- The size of each cycle/oscillation in a wave
 	- *Period*
@@ -65,5 +65,5 @@
 		- GHz = 1,000,000,000 cycles per second
 - In 2.4GHz Wifi, there are *13 (technically 14) channels* available
 	- Each channel is *22 MHz* wide
-	- Choosing channels *1, 6, and 11* avoid cross talk
+	- Avoid overlapping channels by choosing channels *1, 6, and 11*
 

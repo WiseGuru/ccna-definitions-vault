@@ -11,7 +11,7 @@ tags:
 dg-publish: true
 ---
 #### LAN Topology
-- The campus LAN should be designed for scalability, performance, and security
+- The campus [[LAN]] should be designed for scalability, performance, and security
 
 ### Three Layers in Traditional Design
 1. 3-Tier network

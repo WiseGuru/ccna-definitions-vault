@@ -1,6 +1,8 @@
 ---
 aliases:
   - Clients
+  - end host
+  - end hosts
 tags:
   - defs_ccna
 dg-publish: true
@@ -23,4 +25,5 @@ dg-publish: true
 ### Contributors
 
 ### Sources
-
+[End system - Wikipedia](https://en.wikipedia.org/wiki/End_system)
+[Host (network) - Wikipedia](https://en.wikipedia.org/wiki/Host_(network))
