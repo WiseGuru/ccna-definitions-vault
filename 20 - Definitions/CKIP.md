@@ -5,7 +5,7 @@ tags:
 dg-publish: true
 ---
 #### CKIP
--  *Cisco Key Integrity Protocol (CKIP)* is a #Cisco-Proprietary  [[Layer 2|Layer 2]] security mechanism configured on [[WLC]]s to encrypt [[Wireless Network|802.11]] traffic.
+-  *Cisco Key Integrity Protocol (CKIP)* is a #Cisco-Proprietary  [[Layer 2|Layer 2]] security mechanism configured on [[WLC]]s to encrypt [[WLAN|802.11]] traffic.
 
 
 

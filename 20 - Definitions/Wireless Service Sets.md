@@ -1,5 +1,10 @@
 ---
-aliases: 
+aliases:
+  - Wireless Service Set
+  - IBSS
+  - BSS
+  - ESS
+  - MBSS
 tags:
   - defs_ccna
 dg-publish: true

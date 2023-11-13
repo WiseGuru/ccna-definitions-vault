@@ -30,7 +30,7 @@ dg-publish: true
 		3.  2001:DB8:0:1::1
 
 ### IPv6 Address types
-1. Global Unicast - **2000::/3**
+1. *Global Unicast* - **2000::/3**
 	1. Global Unicast addresses are assigned to an individual host and can have global reachability (unless blocked)
 	2. Internet authorities assign blocks from the overall 2001::/3 range to organizations
 		1. A common assignment for a *company* is a */48 block*, e.g. 2001:2:3::/48
@@ -41,7 +41,7 @@ dg-publish: true
 		1. 16 bits = 16,535 possible subnets
 		2. X:X:X \| X \| X:X:X:X
 		3.  Company \| Subnet \| Host
-2. Unique Local - **fd00::/8**
+2. *Unique Local* - **fd00::/8**
 	1. They are equivalent to IPv4's Private address ranges
 		1. They are not globally routable
 		2. Uses the range *fd00::/8* to assign completely unique addresses to devices
@@ -50,7 +50,7 @@ dg-publish: true
 			2. The *subnet ID* is 16-bits long, and assigned by the administrator
 			3. The *interface ID* is 64-bits long and unique to each device
 				1. It can either be *stateful* (manually configured) or *stateless* with [[EUI-64]] (automatically generated) with
-3. Link Local - **FE80::/10**
+3. *Link Local* - **FE80::/10**
 	1. These addresses are *required* and *automatically created*, and are only valid on the direct link it is connected to.
 	2. It is required for [[NDP]] and other 
 

@@ -28,7 +28,7 @@ dg-publish: true
 ### OSI or TCP/IP Layer
 
 ### CCNA Exam Topic
-
+#extop-1-6 #extop-1-7
 ### Contributors
 
 ### Sources

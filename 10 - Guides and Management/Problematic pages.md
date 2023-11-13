@@ -4,7 +4,7 @@ dg-publish: true
 # Unoriginal
 These are pages that have unoriginal or private content, and should have new content added to them.
 1. [[WLC]]
-	1. Linked, but would prefer to be original
+	2. Linked, but would prefer to be original
 2. [[OSI Encapsulation]]
 	1. Needs an original image
 3. [[Cisco Troubleshooting Methodology]]
@@ -38,7 +38,7 @@ These are pages that are shorter than they should be and/or don't exist.
 7. [[Ethernet]]
 8. [[WAN Topology]]
 9. [[RC4]]
-10. [[Wireless Network]]
+10. [[WLAN]]
 11. [[Configuring Routes]]
 12. [[VMs]]
 13. [[DH]]
@@ -48,3 +48,5 @@ These are pages that are shorter than they should be and/or don't exist.
 	1. Need to add practice sample routing tables
 17. [[Firewall]]
 18. [[IDS-IPS]]
+19. [[802.1X]]
+	1. Should include a graphic of the devices in relation to each other

@@ -9,7 +9,7 @@ dg-publish: true
 ---
 #### Switch
 - *Switches* are most commonly [[Layer 2|Layer 2]] devices used to build a network connection between the attached devices.
-- It understands [[MAC Address|MAC]] addressing, and sends data packets only to its destination port, limiting the number of collisions.
+- It understands [[MAC Address|MAC]] addressing, and sends data packets only to its destination port, limiting the number of [[collisions]].
 - [[Layer 3]] switches exist, which can perform some of the duties of a router
 
 # Metadata
