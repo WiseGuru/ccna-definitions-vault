@@ -2,9 +2,11 @@
 aliases: null
 dg-publish: true
 ---
-Definition: When sender composes a packet, it gets packed up like a Russian doll from [[Layer 7|L7]] to [[Layer 2|L2]] before getting sent over the wire
+#### OSI Encapsulation
+- *OSI Encapsulation* is the process of *encapsulating* and *decapsulating* information for transport at the different layers of the [[OSI Model]]
+- When a client sends information, it gets packed up into different [[PDU]]s like a Russian doll from [[Layer 7|L7]] to [[Layer 2|L2]] before getting sent over the wire
 
-[OSI Reference Model](https://netcert.tripod.com/ccna/internetworking/osi.html)
+
 
 | OSI Layers   | TCP/IP Layers | PDU for each layer  | Data Encapsulation (1>7) | Data De-encapsulation (7>1) | 
 |:------------ |:------------- |:------------------- |:------------------------ |:--------------------------- |
@@ -16,7 +18,8 @@ Definition: When sender composes a packet, it gets packed up like a Russian doll
 | Data-Link    | Data-Link     | [[802.3 Frames]] | Bits>Frames              | Frames>Bits                 |
 | Physical     | Physical      | [[bits]]            | -                        | -                           |
 
-![[OSI Encapsulation-1.png|600]]
+![[OSI Encapsulation-2.png]]
+Source: Original
 
 
 # Metadata
@@ -27,3 +30,4 @@ Definition: When sender composes a packet, it gets packed up like a Russian doll
 ### Contributors
 
 ### Sources
+[OSI Reference Model](https://netcert.tripod.com/ccna/internetworking/osi.html)

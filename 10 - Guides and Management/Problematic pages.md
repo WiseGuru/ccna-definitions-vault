@@ -6,13 +6,11 @@ Help me fix these pages; hit me up with this [Google Forms Survey](https://forms
 These are pages that have unoriginal or private content, and should have new content added to them.
 1. [[WLC]]
 	2. Linked, but would prefer to be original
-2. [[OSI Encapsulation]]
-	1. Needs an original image
-3. [[Cisco Troubleshooting Methodology]]
-	1. Linked, but would prefer it to be original
-4. [[DHCP Snooping]]
+2. [[Cisco Troubleshooting Methodology]]
+	4. Linked, but would prefer it to be original
+3. [[DHCP Snooping]]
 	1. Unsure where I got the CLI output from, should be original
-5. [[Port Security]]
+4. [[Port Security]]
 	1. Linked, but would prefer to be original
 
 
