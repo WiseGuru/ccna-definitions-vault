@@ -7,7 +7,7 @@ There have been a couple of guides out there on this, but few of them actually s
 
 Until I actually get around to it, here's a link to the guide I used initially, but ran into problems with: [How I Published My Knowledge Base Online for Free](https://sharaf.cc/40-49-toolbox/40-note-taking/40-01-obsidian/guides/publish-obsidian-vault-for-free/)
 
-The KEY when publishing to Cloudflare is the **Build Configuration**. Specifically, where I differed from Sharaf's guide I changed the "_build output directory_" to from `/src/site` to `/dist`.
+The *KEY* when publishing to Cloudflare is the **Build Configuration**. Specifically, I changed the "_build output directory_" from `/src/site` to `/dist`.
 
 ![[How this site was made-1.png]]
 
