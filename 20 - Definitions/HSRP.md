@@ -14,7 +14,7 @@ dg-publish: true
 	- If the active gateway fails, the standby gateway will take over
 - Hello messages are sent ever *3 seconds* by default by routes in the *active*, *standby*, or *speak* states
 	- Only routers in the *standby* state listen for routers, and takes over if the span between *hello* messages exceeds the *hold time (def. 10 seconds)*
-- *VRRP* (Virtual Router Redundancy Protocol) is identical to HSRP, except it uses `vrrp` instead of `standby` for its configuration
+- *VRRP* (**Virtual Router Redundancy Protocol**) is identical to HSRP, except it uses `vrrp` instead of `standby` for its configuration
 
 ![[FHRP#FHRP Virtual MAC Addresses]]
 ![[FHRP#FHRP Multicast Address Multicast Addresses]]
@@ -91,7 +91,7 @@ R2Config# int g0/1
 ### OSI or TCP/IP Layer
 
 ### CCNA Exam Topic
-
+#extop-3-5 
 ### Contributors
 
 ### Sources

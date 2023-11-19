@@ -4,9 +4,7 @@ tags:
   - guides_ccna
 dg-publish: true
 ---
-#### Static Routes
-- Configure a static route
-	- `config# ip route <destination address> <netmask> <next-hop add.> <ad>`
+![[Static route#Configure a static route]]
 
 #### OSPF
 - Clear or Reset the OSPF process on the local router

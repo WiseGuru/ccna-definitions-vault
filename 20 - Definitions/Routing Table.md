@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases: []
 tags:
   - defs_ccna
 dg-publish: true
@@ -7,7 +7,7 @@ dg-publish: true
 #### Routing Table
 - The *Routing Table* identifies [[IP]] routes to networks
 	- The **most specific route** (e.g., the route with the *longest prefix*) is the route that is chosen for any given traffic
-- Routes can be *statically configured* by the administrator, or *dynamically added* through routing protocols like [[RIP]], [[EIGRP]], or [[OSPF]]
+- Routes can be [[Static route]] by the administrator, or *dynamically added* through routing protocols like [[RIP]], [[EIGRP]], or [[OSPF]]
 - How Routes are selected, from creation to packet forwarding
 	- Dynamic Routing Protocols choose routes to advertise based on *Metric*
 		- The *Metric* process is different for each protocol
@@ -39,19 +39,9 @@ dg-publish: true
 	- If there is no matching network on the table, the packet be forwarded out of the *Gateway of last resort*
 		- This the catch-all network, `0.0.0.0 0.0.0.0`, and the router that sits between the LAN and the WAN
 
-#### IPv6 Routes
-- There are three kinds of IPv6 routes
-	- *Directly Attached*
-		- Only points to the *exit interface*
-	- *Recursive*
-		- Only points to the *next-hop address*
-		- Called recursive because it has to check the routing table twice
-			- first to match the destination IP against a route
-			- second to match the next-hop address against a route
-	- *Fully Specified*
-		- Identifies both the *exit interface* and the *next-hop* address
+![[Static route#IPv6 Routes]]
 
-#### Configure a Static Route
+#### Configure a [[Static Route]]
 `config# ip route <destination> <subnet mask> <next hop> <opt: AD>`
 `config# ipv6 route <destination network and mask> <opt: exit interface> <opt: next hop address> <opt: AD>  `
 
@@ -82,7 +72,7 @@ dg-publish: true
 ### OSI or TCP/IP Layer
 
 ### CCNA Exam Topic
-
+#extop-3-1 #extop-3-2 #extop-3-3 
 ### Contributors
 
 ### Sources

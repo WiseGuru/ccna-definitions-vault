@@ -1,6 +1,6 @@
 ##### NEEDED
 1. A list of protocols that perform elections, and whether they prefer higher or lower numbers
-	1. e.g., HSRP prefers higher, OSPF DR/BDR prefers higher, Spanning tree prefers lower, AD/Metric prefers lower, etc.
+	1. e.g., [[HSRP]] prefers higher, OSPF DR/BDR prefers higher, Spanning tree prefers lower, AD/Metric prefers lower, etc.
 
 ### Shortcuts for Subnet Masks and Network Classes
 
