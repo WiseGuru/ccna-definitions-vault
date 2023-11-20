@@ -18,7 +18,7 @@ CIDR notation uses a slash to describe the [[IP subnet|subnet]]. For example, 19
 ### OSI or TCP/IP Layer
 
 ### CCNA Exam Topic
-
+#extop-1-6 
 ### Contributors
 
 ### Sources
