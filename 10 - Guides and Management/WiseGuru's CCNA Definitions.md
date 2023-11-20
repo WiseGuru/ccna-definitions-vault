@@ -9,6 +9,9 @@ I have a little more work to do, but I will do some testing elsewhere before I b
 
 ![[Maintenance#Planned Maintenance]]
 
+#### Updated Pages
+Curious what's been updated since you were last here? Check out the [CCNA Definitions vault commits page on GitHub!](https://github.com/WiseGuru/ccna-definitions-vault/commits/main) Click on a commit to see which pages were changed and the exact changes that occurred.
+
 # CCNA Definitions
 
 Welcome to WiseGuru's *community-driven* site of **CCNA Definitions**! The goal of this is a living document is to provide you with *concise*, *relevant definitions* for any topic you might encounter on the **CCNA**. This is not a replacement for an *instructor-led course* or the [Cisco OCG](https://www.ciscopress.com/store/ccna-200-301-official-cert-guide-library-9781587147142), but should help reinforce what you've learned.
