@@ -2,14 +2,14 @@
 dg-publish: true
 dg-home: true
 ---
-##### Maintenance Outages 11/15/2023
-Sorry to anyone who has been trying to access the page over the last couple of days and found it in disarray, I've been trying to get harden the security of the site by adding headers [security headers](https://securityheaders.com/?q=https%3A%2F%2Fccnadefinitions.com%2F&followRedirects=on), and it's finally done (for now). Maintenance and outage history can now be found [[Maintenance|here]], and any planned maintenance will be listed below.
-
-I have a little more work to do, but I will do some testing elsewhere before I break the site again.
+##### Personal note
+As one of the 10s (or possibly hundreds?) of visitors over the last week, ***WELCOME***! I'm very excited to have this project starting off so well and can't wait to see where it ends up.
+![[WiseGuru's CCNA Definitions-2.png|500]]
+If you're struggling with a topic, or if there's an area that would help *you* in particular (*yes, you*) study, please let me know! Hit me up through this [Google Forms Survey](https://forms.gle/HmYY8zjdgzJQFiWr5), by submitting an [issue on GitHub](https://github.com/WiseGuru/ccna-definitions-vault/issues/new), or [ping me on Reddit (u/WiseGuruToTheMax)](https://www.reddit.com/user/WiseGuruToTheMax).
 
 ![[Maintenance#Planned Maintenance]]
 
-#### Updated Pages
+## Updated Pages
 Curious what's been updated since you were last here? Check out the [CCNA Definitions vault commits page on GitHub!](https://github.com/WiseGuru/ccna-definitions-vault/commits/main) Click on a commit to see which pages were changed and the exact changes that occurred.
 
 # CCNA Definitions
