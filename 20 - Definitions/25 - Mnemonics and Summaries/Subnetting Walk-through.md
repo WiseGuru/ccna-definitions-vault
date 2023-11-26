@@ -383,3 +383,6 @@ Create a *list* of *subnets*, *magic numbers*, and anything else you find helpfu
 3. Exam time
 	1. *Write out your list* of *subnet masks* and *bit-values* on the *whiteboard* 
 	2. *Feel confident* that you've done so much to prepare; you are *awesome*.
+
+
+Feel like I missed something, or see something I should fix? Hit me up through this [Google Forms Survey](https://forms.gle/HmYY8zjdgzJQFiWr5), submit an [issue on GitHub](https://github.com/WiseGuru/ccna-definitions-vault/issues/new).
