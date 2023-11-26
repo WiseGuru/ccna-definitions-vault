@@ -6,6 +6,7 @@ aliases:
   - Class D
   - Class E
   - Loopback Address
+  - RFC 1918
 tags:
   - defs_ccna
 dg-publish: true
@@ -23,6 +24,14 @@ dg-publish: true
 | C                  | Small Networks                | 192-223     | 32                | /24          | 255.255.255.0 | 192.168.0.0 - 192.168.255.255 | /16                    |
 | D                  | Multicast addresses           | 224-239     | 16                | ---          | ---           | ---                           | ---                    |
 | E                  | Experimental                  | 240-255     | 16                | ---          | ---           | ---                           | ---                    |
+
+##### Private IPv4 Address Ranges
+| Class | Purpose               | Private Network Address | Slash Subnet | Dotted Subnet | Private IP Range              |
+|:----- |:--------------------- |:----------------------- |:------------ |:------------- |:----------------------------- |
+| A     | Large networks        | 10.0.0.0                | /8           | 255.0.0.0     | 10.0.0.0 - 10.255.255.255     |
+| B     | Medium/Large networks | 172.16.0.0              | /12          | 255.240.0.0   | 172.16.0.0 - 172.31.255.255   |
+| C     | Small Networks        | 192.168.0.0             | /16          | 255.255.0.0   | 192.168.0.0 - 192.168.255.255 |
+
 
 # Metadata
 ### OSI or TCP/IP Layer

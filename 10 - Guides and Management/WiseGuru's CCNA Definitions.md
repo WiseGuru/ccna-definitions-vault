@@ -2,9 +2,9 @@
 dg-publish: true
 dg-home: true
 ---
-##### Personal note
-As one of the 10s (or possibly hundreds?) of visitors over the last week, ***WELCOME***! I'm very excited to have this project starting off so well and can't wait to see where it ends up.
-![[WiseGuru's CCNA Definitions-2.png|500]]
+##### Black Friday Sale
+For an unlimited, everything on this site is *Free*! Just take a deep breath, smile, and keep studying. You've got this :)
+
 If you're struggling with a topic, or if there's an area that would help *you* in particular (*yes, you*) study, please let me know! Hit me up through this [Google Forms Survey](https://forms.gle/HmYY8zjdgzJQFiWr5), by submitting an [issue on GitHub](https://github.com/WiseGuru/ccna-definitions-vault/issues/new), or [ping me on Reddit (u/WiseGuruToTheMax)](https://www.reddit.com/user/WiseGuruToTheMax).
 
 ![[Maintenance#Planned Maintenance]]

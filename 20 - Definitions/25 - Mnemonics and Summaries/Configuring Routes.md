@@ -1,7 +1,6 @@
 ---
 aliases: 
-tags:
-  - guides_ccna
+tags: []
 dg-publish: true
 ---
 ![[Static route#Configure a static route]]
