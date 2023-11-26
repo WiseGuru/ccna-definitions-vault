@@ -2,8 +2,10 @@
 dg-publish: true
 dg-home: true
 ---
-##### Black Friday Sale
-For an unlimited, everything on this site is *Free*! Just take a deep breath, smile, and keep studying. You've got this :)
+##### Cyber Monday Sale
+For an unlimited time, everything on this site is *Free*! Just take a deep breath, smile, and keep studying. You've got this :)
+
+I've just added a [[Subnetting Walk-through]]; if you're uncomfortable with Subnetting, give it a look! I'd love to hear any feedback.
 
 If you're struggling with a topic, or if there's an area that would help *you* in particular (*yes, you*) study, please let me know! Hit me up through this [Google Forms Survey](https://forms.gle/HmYY8zjdgzJQFiWr5), by submitting an [issue on GitHub](https://github.com/WiseGuru/ccna-definitions-vault/issues/new), or [ping me on Reddit (u/WiseGuruToTheMax)](https://www.reddit.com/user/WiseGuruToTheMax).
 
