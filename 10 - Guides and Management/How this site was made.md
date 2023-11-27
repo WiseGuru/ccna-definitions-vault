@@ -12,3 +12,95 @@ The *KEY* when publishing to Cloudflare is the **Build Configuration**. Specific
 ![[How this site was made-1.png]]
 
 After that, I went into Obsidian to push some changes, and it was up and running! I had to tweak the settings a little bit to get them all showing correctly, but as you can see, everything is running fine.
+
+## Steps to Publish Cloudflare (WIP)
+1. Download and install the Obsidian community plugin
+2. Create a GitHub account (if you don't already have one).
+3. Create a Cloudflare account.
+4. Go to [this repo](https://github.com/oleeskild/digitalgarden) and click "*Use this Template*," and select "*Create a new repository*"
+	1. ![[How this site was made-4.png]]
+	2. NOTE: If you don't see it, you may need to either maximize the page or zoom out.
+5. Configure the new repo
+	1. I don't believe you need to copy all branches.
+		1. In fact, in my testing, it causes some problems (that can be easily overcome, but still)... best to stay away
+	2. Enter a name and description for the repository
+	3. Set the repository as *Public* or *Private*
+		1. I don't think this should have any impact on the how the repo functions, since you give explicit permission to everything
+	4. Example configuration: 
+	   ![[How this site was made-5.png]]
+6. Create an access token to the Repo for Digital Garden^[ oleeskild's guide to create a [fine grained access token](https://dg-docs.ole.dev/advanced/fine-grained-access-token/)]
+	1. Click on your profile icon at the top-right corner
+	2. Select "*Settings*"
+	3. In the left bar, select "*Developer Settings*"
+	4. In the left bar, expand "*Personal access tokens*" and select "*Fine-grained tokens*"
+	5. Click "*Generate new token*"
+	6. Enter the following information:
+		1. Main settings
+			1. Token name
+			2. Token expiration date
+				1. Cannot go further than a year.
+				2. Once a token expires, it will need to be regenerated.
+				3. IIRC, you can just reactivate the token, but you may need to copy/paste the token back into the plugin.
+		2. Repository Access
+			1. "*Only select repositories*" and select the repository
+		3. Repository Permissions
+			1. *Contents*: Read and write
+			2. *Pull Requests*: Read and write
+	7. Generate token - **DO NOT EXIT THIS PAGE**
+		1. This is the only time on GitHub that you will be able to see this token
+		2. Feel free to save it to your preferred password manager or copy it right into the Obsidian plugin
+7. Configure the Digital Garden plugin in Obsidian
+	1. I recommend making all the changes you want to make now if you can, before adding Cloudflare as the publisher.
+	2. Some observations I've made:
+		1. I like turning almost all of the Features on
+			1. Excluding Frontmatter, which can break the site
+		2. Under appearance, I change the theme to match my current theme so I know what it will look like
+		3. Set a site name
+		4. Favicon needs to be an svg file and square
+			1. If you update the Favicon after you create your site, you may need to purge your browser's cache before you will see it reflected
+		5. WARNING: Add Timestamps to pages
+			1. When I did this, it brought down CCNAdefinitions, so I will need to experiment with another site until I can get it working.
+8. Create some content
+	1. Set up a homepage and configure it to publish
+	   ![[How this site was made-10.png|250]]
+		1. You must have ONE homepage with a checkbox
+		2. Every page you wish to publish must have this flag enabled 
+	2. When ready, *Publish all notes* from the command pane
+	   ![[How this site was made-11.png]]
+9. Configure Cloudflare
+	1. Log in to Cloudflare, expand the left menu bar, expand *Workers and Pages*, select *Overview*, and click *Create Application*
+	   ![[How this site was made-6.png]]
+	2. Connect it to your GIT account
+	   ![[How this site was made-7.png]]
+		1. NOTE: If you've done this before, you'll have to select "*Add account*" for the new repo to appear 
+		   ![[How this site was made-8.png|500]]
+	3. Configure the deployment 
+	   ![[How this site was made-9.png|500]]
+		1. Enter the project name (default is the Repo name)
+		2. Set production branch to *Main*
+		3. Leave the *Framework* preset as default or set to *Eleventy*
+			1. I don't think this matters, as we immediately change the commands afterward
+		4. Set the *Build command* to `npm run build`
+		5. Set the *Build output directory*
+10. Configure Security and Dependency Updates in GitHub
+	1. In the Repo, navigate to "*Settings*," *Code security and analysis*, and enable Dependabot *Alerts* and *Security Updates*
+		1. ![[How this site was made-12.png]]
+		2. When there is a dependency update or security issue, Dependabot will create a pull request, and Cloudflare will test the build in a preview to make sure it builds correctly.
+			1. ![[How this site was made-13.png]]
+		3. To merge the pull request, click the *green button above* and then click *confirm merge*
+			1. ![[How this site was made-14.png]]
+	2. This is strongly recommended; familiarize yourself with *Visual Studio Code* and *GitHub Desktop*
+		1. Sometimes you gotta fix dependencies yourself for security updates, boy howdy, knowing how those work are key.
+11. Add security headers
+	1. *Coming soon!*
+12. Troubleshooting
+	1. You see a bunch of Failed deployments in Cloudflare to "Filetree"
+		1. Make sure the *Main* branch is set as "Default" in GitHub
+	2. 
+
+
+
+
+
+
+
