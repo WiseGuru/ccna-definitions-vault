@@ -1,9 +1,7 @@
 ---
 dg-publish: true
 ---
-I took all of my notes in Obsidian, and used Ole's [GitHub - oleeskild/digitalgarden](https://github.com/oleeskild/digitalgarden) and [Cloudflare Pages](https://pages.cloudflare.com/) to publish them on the internet.
-
-There have been a couple of guides out there on this, but few of them actually solved my problems with Cloudflare specifically, so here you go!
+I published most of my CCNA notes using Ole's [GitHub - oleeskild/digitalgarden](https://github.com/oleeskild/digitalgarden) and [Cloudflare Pages](https://pages.cloudflare.com/). There are a couple of guides out there on this, but few of them actually solved my problems with Cloudflare specifically, so here you go!
 
 Until I actually get around to it, here's a link to the guide I used initially, but ran into problems with: [How I Published My Knowledge Base Online for Free](https://sharaf.cc/40-49-toolbox/40-note-taking/40-01-obsidian/guides/publish-obsidian-vault-for-free/)
 
@@ -89,14 +87,15 @@ After that, I went into Obsidian to push some changes, and it was up and running
 			1. ![[How this site was made-13.png]]
 		3. To merge the pull request, click the *green button above* and then click *confirm merge*
 			1. ![[How this site was made-14.png]]
-	2. This is strongly recommended; familiarize yourself with *Visual Studio Code* and *GitHub Desktop*
+	2. This is strongly recommended; familiarize yourself with *Visual Studio Code*, Node.js, and *GitHub Desktop*
 		1. Sometimes you gotta fix dependencies yourself for security updates, boy howdy, knowing how those work are key.
+			1. Relevant: [Package.json vs Package-lock.json](https://www.atatus.com/blog/package-json-vs-package-lock-json/)
+		2. You thought you were signing up for some free and easy way to upload your notes to the internet? Well with great power comes great security risks, and if you don't want some script kiddie owning your base, you should assume the people making free tools have overlooked something.
 11. Add security headers
 	1. *Coming soon!*
 12. Troubleshooting
 	1. You see a bunch of Failed deployments in Cloudflare to "Filetree"
 		1. Make sure the *Main* branch is set as "Default" in GitHub
-	2. 
 
 
 
