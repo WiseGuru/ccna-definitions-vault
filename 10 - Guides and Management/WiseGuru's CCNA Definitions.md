@@ -2,8 +2,6 @@
 dg-publish: true
 dg-home: true
 ---
-##### Cyber Monday Sale
-For an unlimited time, everything on this site is *Free*! Just take a deep breath, smile, and keep studying. You've got this :)
 
 >I've just added a [[Subnetting Walk-through]]; if you're uncomfortable with **Subnetting**, give it a look! I'd love to hear any feedback.
 
