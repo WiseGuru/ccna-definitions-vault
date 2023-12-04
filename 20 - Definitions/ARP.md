@@ -7,7 +7,7 @@ tags:
 dg-publish: true
 ---
 #### ARP
-- *Address Resolution Protocol (ARP)* maps IP addresses to [[MAC Address|MAC]] addresses at [[Layer 2]]
+- *Address Resolution Protocol (ARP)* maps [[IPv4|IP address]] to [[MAC Address|MAC]] addresses at [[Layer 2]]
 - ARP requests and replies are [[802.3 Frames|Frames]] that include the target [[IPv4|IP address]], the sender's [[MAC Address]], and either the [[Broadcast Address|Broadcast]] MAC address or the target's [[MAC Address|MAC]] Address
 	- If the [[Switch]] doesn't have the know the target [[MAC Address|MAC]] address, it broadcasts out the request to all ports
 	- Hosts that receive frames with mismatched target [[MAC Address|MAC]] addresses will drop the frame
@@ -31,7 +31,7 @@ dg-publish: true
 ### OSI or TCP/IP Layer
 
 ### CCNA Exam Topic
-
+#extop-5-7
 ### Contributors
 
 ### Sources

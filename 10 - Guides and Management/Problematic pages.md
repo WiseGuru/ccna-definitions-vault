@@ -4,20 +4,13 @@ dg-publish: true
 Help me fix these pages; hit me up with this [Google Forms Survey](https://forms.gle/HmYY8zjdgzJQFiWr5) or submit an [issue on GitHub](https://github.com/WiseGuru/ccna-definitions-vault/issues/new).
 # Unoriginal
 These are pages that have unoriginal or private content, and should have new content added to them.
-1. [[WLC]]
-	2. Linked, but would prefer to be original
-2. [[Cisco Troubleshooting Methodology]]
-	4. Linked, but would prefer it to be original
-3. [[DHCP Snooping]]
-	1. Unsure where I got the CLI output from, should be original
-4. [[Port Security]]
-	1. Linked, but would prefer to be original
 
+>  *All unoriginal content has been linked or resolved.* **Please report any unoriginal content so it can be addressed.**
 
 # Split Up
 These are pages that probably need to be broken out into their component parts and then linked to or created fresh.
 1. [[FHRP]]
-	2. Should be split out/summarized
+	1. Should be split out/summarized
 2. [[IPv4 Packet Header]]
 	1. Possibly just [[IPv4]] needs to be broken out, but it feels messy right now
 	2. [[Packet]], [[IPv6]], [[IPv6 Packet Header]]

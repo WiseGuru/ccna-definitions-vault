@@ -24,7 +24,7 @@ dg-publish: true
 		- A log message is generated
 		- Violation counter is set to 1
 
-**NOTE**: Much of the following was taken from [Roberto Téllez GitHub Cisco-IOS-Command-CheatSheets.](https://github.com/r7perezyera/Cisco-IOS-Command-CheatSheets)
+>  **NOTE**: Much of the following was taken from [Roberto Téllez GitHub Cisco-IOS-Command-CheatSheets.](https://github.com/r7perezyera/Cisco-IOS-Command-CheatSheets)
 ### Configuring Dynamic Port Security
 Command|Description
 ---|---

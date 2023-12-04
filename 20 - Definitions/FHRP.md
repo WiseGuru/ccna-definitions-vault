@@ -50,7 +50,7 @@ dg-publish: true
 2. When FHRP is configured, the **Virtual IP address** should be configured as the default gateway for hosts
 3. The active FHRP router responds to [[ARP]] requests with a **virtual MAC address**
 4. [[HSRP]] uses **Active** and **Standby** routers
-	1. When [[HSRP]] Standby router switches to active, it will send **gratuitous ARP messages**
+	1. When [[HSRP]] Standby router switches to active, it will send **[[gratuitous ARP]] messages**
 	2. The [[HSRP]] active router is determined by **Highest priority**, then **highest IP address**
 		1. The default priority is 100
 	3. HSRPv1

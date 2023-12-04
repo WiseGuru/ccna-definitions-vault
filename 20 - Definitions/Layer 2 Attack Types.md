@@ -32,7 +32,7 @@ dg-publish: true
 - Mitigate with [[DHCP Snooping]] to restrict *DHCP traffic* to *trusted ports*
 
 #### [[ARP]] Poisoning (or ARP Spoofing)
-- An attacker sends *Gratuitous ARP* messages to a host, associating the attacker's *MAC* address with another host's valid *IP* address
+- An attacker sends *[[Gratuitous ARP]]* messages to a host, associating the attacker's *MAC* address with another host's valid *IP* address
 - Mitigate with [[DAI]] to intercept and validate *ARP* messages
 
 

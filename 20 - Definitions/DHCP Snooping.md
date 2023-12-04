@@ -8,7 +8,7 @@ dg-publish: true
 - *DHCP Snooping* inspects [[DHCP]] packets to prevent networking problems and attacks from rogue DHCP servers
 - Compares addresses on the *DHCP Snooping binding* table
 	- The *binding* table records the Client's *MAC* address, *IP* address, IP *Lease* time, and *VLAN* to its *interface*
-		- ![[DHCP Snooping Binding table-1.png]]
+		- ![[DHCP Snooping-1.png]]^[Source: Original]
 	- [[DAI]] also uses the *Snooping table* in its frame validation
 - It identifies ports as *Trusted* or *Untrusted*
 	- **Trusted** ports *forward all DHCP* messages without inspection
@@ -63,7 +63,7 @@ dg-publish: true
 ### OSI or TCP/IP Layer
 
 ### CCNA Exam Topic
-
+#extop-5-7 
 ### Contributors
 
 ### Sources
