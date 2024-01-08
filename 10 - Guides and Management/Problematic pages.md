@@ -5,7 +5,7 @@ Help me fix these pages; hit me up with this [Google Forms Survey](https://forms
 # Unoriginal
 These are pages that have unoriginal or private content, and should have new content added to them.
 
->  *All unoriginal content has been linked or resolved.* **Please report any unoriginal content so it can be addressed.**
+>  *All unoriginal content that I am aware of has been linked or resolved.* **Please report any unoriginal content so it can be addressed.**
 
 # Split Up
 These are pages that probably need to be broken out into their component parts and then linked to or created fresh.

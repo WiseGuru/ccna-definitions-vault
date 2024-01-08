@@ -1,3 +1,8 @@
+---
+dg-publish: true
+aliases: 
+tags: []
+---
 #mnemonics
 
 - [[CSMA-CA|CSMA/CA]] (Carrier Sense Multi-Access with Collision Avoidance) is used to avoid collisions in wireless networks (like [[CSMA-CD|CSMA/CD]] in wired networks)
@@ -67,3 +72,11 @@
 	- Each channel is *22 MHz* wide
 	- Avoid overlapping channels by choosing channels *1, 6, and 11*
 
+# Metadata
+### OSI or TCP/IP Layer
+
+### CCNA Exam Topic
+#extop-2-9 #extop-2-6 
+### Contributors
+
+### Sources

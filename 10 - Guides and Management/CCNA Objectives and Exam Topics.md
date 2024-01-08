@@ -13,11 +13,14 @@ Below are the CCNA objectives (and their respective tags), according to Cisco's 
 6. Automation and Programmability (10%)
 
 
+I have currently linked files up to 4.1. Topics that should be covered but are currently without any linked files are highlighted.
+
+
 | Tag         | Topic                                                                                                                                                               |
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | #extop-1-1  | Explain the role and function of network components                                                                                                                 |
 | #extop-1-2  | Describe characteristics of network topology architectures                                                                                                          |
-| #extop-1-3  | Compare physical interface and cabling types                                                                                                                        |
+| #extop-1-3  | **Compare physical interface and cabling types**                                                                                                                        |
 | #extop-1-4  | Identify interface and cable issues (collisions, errors, mismatch duplex, and/or speed)                                                                             |
 | #extop-1-5  | Compare TCP and UDP                                                                                                                                                 |
 | #extop-1-6  | Configure and verify IPv4 addressing and subnetting                                                                                                                 |
@@ -34,7 +37,7 @@ Below are the CCNA objectives (and their respective tags), according to Cisco's 
 | #extop-2-4  | Configure and verify (Layer 2/Layer 3) EtherChannel (LACP)                                                                                                          |
 | #extop-2-5  | Interpret basic operations of Rapid PVST+ Spanning Tree Protocol                                                                                                    |
 | #extop-2-6  | Describe Cisco Wireless Architectures and AP modes                                                                                                                  |
-| #extop-2-7  | Describe physical infrastructure connections of WLAN components (AP, WLC,<br/>access/trunk ports, and LAG)                                                          |
+| #extop-2-7  | Describe physical infrastructure connections of WLAN components (AP, WLC, access/trunk ports, and LAG)                                                          |
 | #extop-2-8  | Describe AP and WLC management access connections ([[Telnet]], SSH, HTTP, HTTPS, console, and TACACS+/RADIUS)                                                           |
 | #extop-2-9  | Interpret the wireless LAN GUI configuration for client connectivity, such as WLAN creation, security settings, QoS profiles, and advanced settings                 |
 | #extop-3-1  | Interpret the components of routing table                                                                                                                           |
@@ -43,7 +46,7 @@ Below are the CCNA objectives (and their respective tags), according to Cisco's 
 | #extop-3-4  | Configure and verify single area OSPFv2                                                                                                                             |
 | #extop-3-5  | Describe the purpose, functions, and concepts of first hop redundancy protocols                                                                                     |
 | #extop-4-1  | Configure and verify inside source NAT using static and pools                                                                                                       |
-| #extop-4-2  | Configure and verify NTP operating in a client and server mode                                                                                                      |
+| #extop-4-2  | **Configure and verify NTP operating in a client and server mode**                                                                                                      |
 | #extop-4-3  | Explain the role of DHCP and DNS within the network                                                                                                                 |
 | #extop-4-4  | Explain the function of SNMP in network operations                                                                                                                  |
 | #extop-4-5  | Describe the use of syslog features including facilities and levels                                                                                                 |

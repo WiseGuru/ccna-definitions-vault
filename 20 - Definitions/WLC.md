@@ -112,7 +112,7 @@ Source: [Firewall.cx](https://www.firewall.cx/cisco/cisco-wireless/cisco-wireles
 ### OSI or TCP/IP Layer
 
 ### CCNA Exam Topic
-#extop-1-1 
+#extop-1-1 #extop-2-7
 ### Contributors
 
 ### Sources
