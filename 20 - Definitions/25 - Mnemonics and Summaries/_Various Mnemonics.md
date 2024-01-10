@@ -4,7 +4,7 @@
 
 ### Shortcuts for Subnet Masks and Network Classes
 
-**4:12:20:28 = 16** (16 IPs, it's the mid-points)
+**4:12:20:28 = 16** (16 bits and 16 IPs; they're the mid-point of each octet)
 2^bits
 
 - **n = prefix multiple of 8 (/0, /8, /16, /24, /32)
@@ -79,7 +79,7 @@ Each character is 4 bits, or a hex bit
 
 
 ### Port Security Modes
-**Secure your PRS**-d
+**Secure your PRS**(d)
 Protect
 	Like a shield, it just deflects
 Restrict

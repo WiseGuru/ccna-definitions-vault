@@ -9,7 +9,7 @@ dg-publish: true
 - Open Standard
 - The switches on both sides negotiate port channel creation and maintenance
 - Interfaces are either *Active* or *Passive*
-- Support sup to 16 channel groups
+- Supports up to 16 channel groups
 
 # Metadata
 ### OSI or TCP/IP Layer

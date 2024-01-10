@@ -1,5 +1,7 @@
 ---
 dg-publish: true
+tags:
+  - "#extop-4-3"
 ---
 ### DNS Song
 To itsy bitsy spider
@@ -11,4 +13,3 @@ To itsy bitsy spider
 - But to name the network, use `ip domain-name`
 
 
-#extop-4-3
