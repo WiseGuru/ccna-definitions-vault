@@ -40,16 +40,7 @@ Symmetric algorithms
 
 ![[OSPF#OSPF Mnemonics]]
 
-### Syslog Severity
-*EACEWNID* Starts at **0**
-0. Emergency
-1. Alert
-2. Critical
-3. Error
-4. Warning
-5. Notify/Notification
-6. Informational
-7. Debugging
+
 
 
 ![[802.3 Frames#802.3 Frame Mnemonic]]
@@ -96,7 +87,7 @@ Restrict
 Shutdown (default)
 	Full stop
 
-
+![[Syslog#Syslog Severity]]
 
 ### FHRP Multicast and MAC Addresses
 

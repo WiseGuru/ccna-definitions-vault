@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 ### DNS Song
 To itsy bitsy spider
 - `ip domain-lookup` let's you lookup domains
@@ -6,3 +9,6 @@ To itsy bitsy spider
 - And `ip host` lets you serve the domains
 - (melodically repeat previous line)
 - But to name the network, use `ip domain-name`
+
+
+#extop-4-3

@@ -13,14 +13,16 @@ Below are the CCNA objectives (and their respective tags), according to Cisco's 
 6. Automation and Programmability (10%)
 
 
-I have currently linked files up to 4.1. Topics that should be covered but are currently without any linked files are highlighted.
+I have currently linked files up to **extops-4-7**. Topics that should be covered but are currently without any linked files are highlighted.
+
+*Note:* This does not mean the articles don't already exist, just that they have not been linked here.
 
 
 | Tag         | Topic                                                                                                                                                               |
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | #extop-1-1  | Explain the role and function of network components                                                                                                                 |
 | #extop-1-2  | Describe characteristics of network topology architectures                                                                                                          |
-| #extop-1-3  | **Compare physical interface and cabling types**                                                                                                                        |
+| #extop-1-3  | Compare physical interface and cabling types                                                                                                                        |
 | #extop-1-4  | Identify interface and cable issues (collisions, errors, mismatch duplex, and/or speed)                                                                             |
 | #extop-1-5  | Compare TCP and UDP                                                                                                                                                 |
 | #extop-1-6  | Configure and verify IPv4 addressing and subnetting                                                                                                                 |
@@ -46,12 +48,12 @@ I have currently linked files up to 4.1. Topics that should be covered but are c
 | #extop-3-4  | Configure and verify single area OSPFv2                                                                                                                             |
 | #extop-3-5  | Describe the purpose, functions, and concepts of first hop redundancy protocols                                                                                     |
 | #extop-4-1  | Configure and verify inside source NAT using static and pools                                                                                                       |
-| #extop-4-2  | **Configure and verify NTP operating in a client and server mode**                                                                                                      |
+| #extop-4-2  | Configure and verify NTP operating in a client and server mode                                                                                                      |
 | #extop-4-3  | Explain the role of DHCP and DNS within the network                                                                                                                 |
 | #extop-4-4  | Explain the function of SNMP in network operations                                                                                                                  |
 | #extop-4-5  | Describe the use of syslog features including facilities and levels                                                                                                 |
 | #extop-4-6  | Configure and verify DHCP client and relay                                                                                                                          |
-| #extop-4-7  | Explain the forwarding per-hop behavior (PHB) for QoS, such as classification, marking, queuing, congestion, policing, and shaping                                  |
+| #extop-4-7  | **Explain the forwarding per-hop behavior (PHB) for QoS, such as classification, marking, queuing, congestion, policing, and shaping**                                  |
 | #extop-4-8  | Configure network devices for remote access using SSH                                                                                                               |
 | #extop-4-9  | Describe the capabilities and functions of TFTP/FTP in the network                                                                                                  |
 | #extop-5-1  | Define key security concepts (threats, vulnerabilities, exploits, and mitigation techniques)                                                                        |

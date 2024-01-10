@@ -48,7 +48,7 @@ tags: []
 		- Diffraction, literally "to break apart"
 	- *Scattering*
 		- Physical interference, like dust, smog, uneven surfaces, etc.
-	- *Interference*
+	- [[Interference]]
 		- Signal interference, like other WLAN connections, microwaves, etc.
 
 ### Wireless Signal Anatomy

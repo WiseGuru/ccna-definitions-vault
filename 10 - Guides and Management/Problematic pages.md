@@ -42,3 +42,4 @@ These are pages that are shorter than they should be and/or don't exist.
 18. [[IDS-IPS]]
 19. [[802.1X]]
 	1. Should include a graphic of the devices in relation to each other
+20. [[DHCP]] server/client configuration

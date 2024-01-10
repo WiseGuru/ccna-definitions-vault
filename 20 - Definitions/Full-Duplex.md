@@ -7,7 +7,7 @@ dg-publish: true
 ---
 #### Full-Duplex
 - A *Full-Duplex* connection allows for simultaneous transmission of data over a network link
-	- Often require two different transmission paths (e.g., using two wires in [[Copper UTP|UTP]] cable)
+	- Often require two different transmission paths (e.g., using two wires in [[Copper|UTP]] cable)
 
 
 

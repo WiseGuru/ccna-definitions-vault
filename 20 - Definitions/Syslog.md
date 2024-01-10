@@ -19,14 +19,23 @@ dg-publish: true
 ![[Syslog-SeverityLevels.png]]
 
 
-
+### Syslog Severity
+*EACEWNID* Starts at **0**
+0. Emergency
+1. Alert
+2. Critical
+3. Error
+4. Warning
+5. Notify/Notification
+6. Informational
+7. Debugging
 
 
 # Metadata
 ### OSI or TCP/IP Layer
 
 ### CCNA Exam Topic
-
+#extop-4-5 
 ### Contributors
 
 ### Sources
