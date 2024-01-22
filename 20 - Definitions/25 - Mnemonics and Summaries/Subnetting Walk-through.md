@@ -5,18 +5,18 @@ dg-publish: true
 
 The CCNA *heavily* tests you on your ability to quickly understand subnets and navigate routing tables. It doesn't do this with questions like you'll find on [subnetting.org](https://subnetting.org/), but often as part of another question whose primary subject matter is something else.
 
-To put it simply, being able to *quickly understand* the *scope of a network* with either a *dotted-decimal* or *slash-notation* network or subnet mask is the **most critical skill** needed for the CCNA. *You are not given time* to do the math of subnetting for every question, and most questions will involve subnetting in some form or another.
+To put it simply, being able to *quickly understand* the *scope of a network* with either a *dotted-decimal* or *slash-notation* network or subnet mask is the **most critical skill** needed for the CCNA. *You are not given time* to manually subnet every question, and most questions will involve subnetting in some form or another.
 
 Below, we'll discuss what I found to be most helpful while studying and taking the test, and what you can do to get better at it.
 
->**NOTE**: All the examples below are for *IPv4*, because that's where it's most necessary for the CCNA. You can extend the principles to *IPv6*, but it's both a little simpler and more complicated, and it's easier to teach the differences if you already have a firm grasp of IPv4 subnetting. 
+>**NOTE**: All the examples below are for *IPv4*, because that's where it's most necessary for the CCNA. You can extend the principles to *IPv6*, and it's easier to learn the differences if you already have a firm grasp of IPv4 subnetting. 
 
 >**ALSO NOTE**: This article will focus on the practical application of subnetting, and won't go into the overarching governing ideas behind them, like [[VLSM]] or [[IPv4 Address Classes|RFC 1918]].
 
 ## IP Networks 101
 In order to fully understand the following methods, you need to understand how IP addresses and network masks are composed at the bit-level.
 
-**If you already know what I mean when I say /13 has a bit value of 8, you can click the arrow by the title of this section and skip ahead.**
+If you already know what I mean when I say */13 has a bit value of 8*, [[Subnetting Walk-through#Subnetting Under Pressure|you can click here to skip ahead to the bottom.]]
 
 >You can also go watch [Jeremy's IT Lab](https://www.youtube.com/watch?v=bQ8sdpGQu8c), which will absolutely do a better and more thorough job of explaining this. I won't be offended.
 
@@ -24,12 +24,12 @@ In order to fully understand the following methods, you need to understand how I
 [[IPv4]] addresses are *32-bit strings* that are *divided into four* 8-bit sections called *octets*. Addresses are read from left to right, with the left-most bits carrying higher values.
 ![[Subnetting Walk-through-5.png|500]]
 
-Each *octet* can represent any number between *0* and *255*, for 256 total possible values. Each *bit* represents a *value*, and whether the bit is set to 1 or 0 indicates if the value is added to the total. The *sum total of all bits flipped to 1 are counted*
+Each *octet* can represent any number between *0* and *255*, for 256 total possible values. Each *bit* represents a *value*, and whether the bit is set to 1 or 0 indicates if the value is added to the total. The *sum total of all bits flipped to 1 are counted*.^[If you want to practice counting in binary, you can use your left hand; with your palm facing down, you have 5 bit positions, and can count from 0 to 31! How do you represent 17? Or 18? What about 4?^[Sorry, that was rude of me.]]
 
 >**DISCLAIMER**: I don't think most people name the bit positions like this, but I think it's helpful. If you prefer to do *1-8* or *8-1*, that's totally fine, so long as you're consistent.
 
 ![[Subnetting Walk-through-4.png]]
-You'll notice there's a pattern in the bit value; each bit is worth **2^x**, where **x** is the bit position. This will be helpful later, but for now, `write mem` this to your [[IOS Storage Locations|NVRAM]] and keep going.
+You'll notice there's a pattern in the bit value; each bit is worth **2^x**, where **x** is the bit position. This will be helpful later, but for now, `write mem` this to your [[IOS Storage Locations|NVRAM]] and keep going.^[Get it? Get it? Because you're committing what you've just learned to long term storage? Get it? .... I'm so sorry.]
 
 Consider the following examples of octets and their bit values.
 ##### Example 1 - 10101010
@@ -298,7 +298,7 @@ And you're all set! Each of the following groups will get these networks:
 
 >Ok, that about covers the basics; let's get on to how this applies for the **CCNA**
 
-## Preparing to Subnet Under Pressure
+## Subnetting Under Pressure
 
 On the CCNA, you will have between 90 and 120 questions, and 120 minutes to answer them ([New CCNA exam - 200-301](https://study-ccna.com/new-ccna-exam-200-301/)). I can feel your existential dread; *how am I supposed to calculate all that crap when I have just over a minute to answer each question?*
 
@@ -361,7 +361,7 @@ As we discussed earlier, the *bit value* is the **magic number** to quickly comp
 However, it's almost always faster to just *know* the answer instead of having to look it up. Therefore, I've included a link below to *Anki flashcards* I created that specifically to reinforce your translation from *dotted-decimal* to *slash-notation* and back again.
 There are also cards that give you a *slash-notation subnet mask* and ask you to say *which octet increments* and by *how much*. I hope they're as helpful to you as they were to me.
 
-As you memorize this information, go to [subnetting.org](https://subnetting.org/) and do rapid-fire practice. You might have used it to practice the proper calculation methods, but *it's more realistic* to try to *complete as many as you can* within a *short time limit*. Think of it less as a chore, and more like a game (I find it exercises similar brain-muscles as *sudoku*^[Incidentally, "sudoku" is an abbreviation of a Japanese phrase which means "huge waste of time"]). At least, that's what I told myself.
+As you memorize this information, go to [subnetting.org](https://subnetting.org/) and do rapid-fire practice. You might have used it to practice the proper calculation methods, but *it's more realistic* to try to *complete as many as you can* within a *short time limit*. Think of it less as a chore, and more like a game (I find it exercises similar brain-muscles as *sudoku*^[Incidentally, "sudoku" is an abbreviation of a Japanese phrase which means "huge waste of time", and has consumed many hours of my life.]). At least, that's what I told myself.
 
 #### Study Prep Recap
 The *bit value of the last bit in a subnet mask* indicates the *IP range* of the *subnet's* **octet**
