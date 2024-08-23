@@ -8,15 +8,15 @@ dg-publish: true
 
 
 
-| OSI Layers   | TCP/IP Layers | PDU for each layer  | Data Encapsulation (1>7) | Data De-encapsulation (7>1) | 
-|:------------ |:------------- |:------------------- |:------------------------ |:--------------------------- |
-| Application  | ---           | Data                |                          |                             |
-| Presentation | Application   | Data                |                          |                             |
-| Session      | ---           | Data                |                          |                             |
-| Transport    | Transport     | [[Segment]]         | Packets>Segments         | Segment>Packets             |
-| Network      | Internet      | [[Packet]]          | Frames>Packets           | Packets>Frames              |
-| Data-Link    | Data-Link     | [[802.3 Frames]] | Bits>Frames              | Frames>Bits                 |
-| Physical     | Physical      | [[bits]]            | -                        | -                           |
+| OSI Layers   | TCP/IP Layers | PDU for each layer | Data Encapsulation (1>7) | Data De-encapsulation (7>1) |     |
+| :----------- | :------------ | :----------------- | :----------------------- | :-------------------------- | --- |
+| Application  | ---           | Data               |                          |                             |     |
+| Presentation | Application   | Data               |                          |                             |     |
+| Session      | ---           | Data               |                          |                             |     |
+| Transport    | Transport     | [[Segment]]        | Packets>Segments         | Segment>Packets             |     |
+| Network      | Internet      | [[Packet]]         | Frames>Packets           | Packets>Frames              |     |
+| Data-Link    | Data-Link     | [[802.3 Frames]]   | Bits>Frames              | Frames>Bits                 |     |
+| Physical     | Physical      | [[bits]]           | -                        | -                           |     |
 
 ![[OSI Encapsulation-2.png]]
 Source: Original

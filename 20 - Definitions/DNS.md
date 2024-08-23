@@ -16,7 +16,7 @@ Port 53 [[TCP]]/[[UDP]]
 	1. Maps a domain to an IPv4 address
 2. *AAAA (IPv6 Address Record)*
 	1. Maps a domain to an IPv6 address
-3. *CNAME (canonical name*
+3. *CNAME (canonical name)*
 	1. Configures an alias for a domain (e.g., \www.example.com CNAME example.com)
 4. *MX (Mail Exchange)*
 	1. Defines the mail server responsible for receiving mail for that domain
@@ -43,4 +43,6 @@ Port 53 [[TCP]]/[[UDP]]
 ### Contributors
 
 ### Sources
-
+[Domain Name System - Wikipedia](https://en.wikipedia.org/wiki/Domain_Name_System)
+[What are DNS records? | Cloudflare](https://www.cloudflare.com/learning/dns/dns-records/)
+[DNS Records Explained | Gcore](https://gcore.com/learning/dns-records-explained/)
